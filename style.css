@@ -1,0 +1,180 @@
+.body_tag{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+   
+}
+.header{
+    background-color: black;
+}
+.header nav div{
+    color: white;
+    display: inline;
+   
+    padding: 20px;
+    /* margin-bottom: 100px; */
+    
+
+}
+.title{
+    position: relative;
+    float:right;
+    margin-right: 500px;
+    clear: both;
+}
+
+.sidebarOption {
+    
+    position: absolute;
+    
+    right: 1px;
+    
+}
+hr{
+    clear: both;
+}
+.containt{
+    clear: both;
+    background-color: black;
+    color: yellow;
+   
+}
+.lorem{
+    color: wheat;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px wheat;
+    background-color:black;
+    text-align: justify;
+    justify-content: center;
+    
+   
+}
+
+.bgimg{
+    height: 500px;
+    color: white;
+    background-image: url("/Image/home-img.jpeg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.bgimg p{
+    width: 500px;
+    font-size: 2rem;
+    /* line-height: 50px; */
+}
+.map{
+    text-align: center;
+    margin-left: 50px;
+    line-height: 0%;
+    font-size: 12px;
+    font-weight:lighter;
+}
+.tag{
+    color: white;
+    font-size: 2rem;
+    margin-left: 150px;
+    text-shadow: none;
+    background-color:burlywood;
+}
+.imgj{
+    float: left;
+    margin-right: 20px;
+}
+.card div{
+    clear: both;
+    
+    border: 1px solid white;
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+   
+}
+.card{
+    /* clear: both;
+    display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-rows: repeat(1,auto-fit);
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    
+}
+#sc{
+    margin-top: 90px;
+}
+.card1{
+    margin-left: 30px;
+    color: white;
+
+}
+.card1 img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 100px;
+
+}
+.pro{
+    display: inline;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+ p{
+    
+    text-align: center;
+}
+.mai{
+    font-size: 25px;
+}
+.mai span{
+    color: blanchedalmond;
+}
+.le{
+    font-size: 10px;
+    text-decoration:line-through;
+}
+.add{
+    margin-left: 100px;
+    border: 1px solid ;
+    padding: 5px;
+    background-color:burlywood;
+}
+.card2{
+    margin: 20px;
+    color: white;
+}
+.card2 img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 100px;
+   
+}
+
+.card3{
+    margin-right: 20px;
+    color: white;
+}
+.card3 img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 100px;
+   
+}
+
+.card4{
+    margin-right: 20px;
+    color: white;
+}
+.card4 img{
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 100px;
+   
+}
+
